@@ -1,0 +1,2 @@
+192.168.200.131	service.nahom.com
+192.168.200.131	gmail.com
