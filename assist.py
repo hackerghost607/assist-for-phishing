@@ -13,7 +13,7 @@ def logo():
   print '+++++++++++++++++++++++++++++++++++++++++++++++++++++++'
   print '=                     V.1.2                           ='
   print '+++++++++++++++++++++++++++++++++++++++++++++++++++++++'
-  print '=  contact me on telegram https://t.me/nahom_0ghost   ='
+  print '=  contact me on telegram https://t.me/hacker_0ghost  ='
   print '======================================================='
 
 system('clear')
