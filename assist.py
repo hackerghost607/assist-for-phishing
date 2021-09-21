@@ -41,7 +41,7 @@ file.close()
 
 print ("[1] for selecting eth0 as interface")
 print ("[2] for selecting wlan0 as interface")
-print ("[3] exit"
+print ("[3] exit")
 option2 = input("==>")
 if option2 == 1:
   system("echo 1 > /proc/sys/net/ipv4/ip_forward")
