@@ -32,7 +32,7 @@ else:
 logo()
 print ("Enter your ipaddres to redirected to")
 print ("Next enter the link that you want to send to victim")
-print ("Dont forget to make space beetwen yourip and link EX:-192.168.200.130)  sevice.login.facebook" 
+print ("Dont forget to make space beetwen yourip and link EX:-192.168.200.130  sevice.login.facebook") 
 
 file = open("hosts.txt", "w")
 option3 = raw_input("==>")
